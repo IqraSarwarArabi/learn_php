@@ -46,11 +46,6 @@ $welcomeMessage = $greeting . $name; // Concatenation
 $longString = "Hello, ";
 $longString .= "PHP!"; // Concatenate and assign
 
-// Array Operators
-$array1 = [1, 2, 3];
-$array2 = [3, 4, 5];
-$union = $array1 + $array2; // Union of arrays
-
 // Conditional (Ternary) Operator
 $age = 18;
 $voteStatus = ($age >= 18) ? "Can vote" : "Cannot vote";
@@ -80,7 +75,6 @@ echo "Logical: $logicalAnd, $logicalOr, $logicalNot, $logicalXor<br>";
 echo "Increment/Decrement: $increment, $decrement<br>";
 echo "Concatenation: $welcomeMessage<br>";
 echo "String Operator: $longString<br>";
-echo "Array Operator: "; print_r($union); echo "<br>";
 echo "Conditional: $voteStatus<br>";
 echo "Null Coalescing: $notNull<br>";
 echo "Type Operator: $isInstanceOf<br>";
