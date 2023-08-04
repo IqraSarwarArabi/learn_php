@@ -1,5 +1,5 @@
 <?php
-namespace MyApp\Math {
+namespace MyApp {
     class Calculator {
         public static function add($a, $b) {
             return $a + $b;

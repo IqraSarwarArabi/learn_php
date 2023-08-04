@@ -1,7 +1,10 @@
 <?php
-use MyApp\Math\Calculator;
-use MyApp\Geometry\Circle;
-use MyApp\Geometry\Square;
+require 'math.php';
+require 'geometry.php';
+
+use MyApp\Calculator;
+use MyApp\Circle;
+use MyApp\Square;
 
 // Math namespace
 $sum = Calculator::add(5, 3);
