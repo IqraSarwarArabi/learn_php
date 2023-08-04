@@ -73,15 +73,15 @@ function incrementCounter() {
 }
 incrementCounter(); // Output: Count: 1
 incrementCounter(); // Output: Count: 2
-class MyClass {
+class MyClass1 {
     public static $staticVar = 0;
 
     public static function incrementStaticVar() {
         self::$staticVar++;
     }
 }
-MyClass::incrementStaticVar();
-echo MyClass::$staticVar . "<br>"; // Output: 1
+MyClass1::incrementStaticVar();
+echo MyClass1::$staticVar . "<br>"; // Output: 1
 
 //global keyword
 $globalVar = 10;
